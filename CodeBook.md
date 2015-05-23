@@ -37,19 +37,19 @@ The dataset includes the following files:
 - 'test/subject_test.txt': Test subjects.
 
 Steps performed to create resulted tidy dataset are :
-1 read test features data into data frame
-2 assuming that file 'features.txt' contains names for each column, drop all columns which names do not have words 'mean' or 'std' in it
-3 read subjects data 'subject_test.txt' into one column data frame 
-4 read activities data 'y_test.txt' into one column data frame 
-5 combine all three data frames into one by columns
-7 read train features data into data frame
-8 assuming that file 'features.txt' contains names for each column, drop all columns which names do not have words 'mean' or 'std' in it
-9 read subjects data 'subject_train.txt' into one column data frame 
-10 read activities data 'y_train.txt' into one column data frame 
-11 combine all three data frames into one by columns
-12 merge two data frames into one appending one to the and of another
-13 replace identifiers of activities with its descriptive values from activity_labels.txt
-14 aggregate resulted dataset by subject and activity name using mean function to get average of each variable for each activity and each subject.
+1. read test features data into data frame
+2. assuming that file 'features.txt' contains names for each column, drop all columns which names do not have words 'mean' or 'std' in it
+3. read subjects data 'subject_test.txt' into one column data frame 
+4. read activities data 'y_test.txt' into one column data frame 
+5. combine all three data frames into one by columns
+7. read train features data into data frame
+8. assuming that file 'features.txt' contains names for each column, drop all columns which names do not have words 'mean' or 'std' in it
+9. read subjects data 'subject_train.txt' into one column data frame 
+10. read activities data 'y_train.txt' into one column data frame 
+11. combine all three data frames into one by columns
+12. merge two data frames into one appending one to the and of another
+13. replace identifiers of activities with its descriptive values from activity_labels.txt
+14. aggregate resulted dataset by subject and activity name using mean function to get average of each variable for each activity and each subject.
 
 For more detailed information about dataset transformation see README.md and run_analysis.R files.
 
